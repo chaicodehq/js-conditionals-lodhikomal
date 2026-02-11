@@ -31,4 +31,5 @@
  */
 export function calculateTip(billAmount, serviceRating) {
   // Your code here
+  if()
 }

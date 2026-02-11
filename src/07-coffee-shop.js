@@ -32,4 +32,8 @@
  */
 export function calculateCoffeePrice(size, type, extras = {}) {
   // Your code here
+  if(!size||!type){
+    return -1
+  }
+  else if(size=='small')
 }
